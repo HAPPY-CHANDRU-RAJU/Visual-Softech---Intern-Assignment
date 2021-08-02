@@ -1,0 +1,249 @@
+body{
+	background-color: #e2e2e2;    
+	overflow-x: hidden;
+}
+a, a:hover  {
+     
+    text-decoration: none; 
+}
+
+.nav-item-pad{
+	    margin: 0px 10px;	    
+}
+.bg-blue{
+	 background: #fff !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #8a8a8a;
+ }
+ .navbar-dark .navbar-nav .nav-link{
+ 	color: #000;
+ }
+ .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #8a8a8a;
+}
+.first-center {
+    top: 32%;
+}
+ .logo-div{
+ 	display: inline-grid;
+ 	padding-left: 10px;
+ }
+.nav-shadow{
+    box-shadow: 2px 4px 4px 5px #e2e2e2;
+}
+.logo-subtitle{
+	font-size: small;
+	font-weight: 600;
+	color: #656262c2;
+}
+.logo-img{
+	height: 30px;    
+	margin-top: 7px;
+}
+.carousel-inner img {
+    width: 100%;
+  }
+
+.sec{
+	margin-top: 45px;
+}
+
+.counters {
+    cursor: default;
+	background: #091932;
+	color: #fff;
+	padding: 40px 20px;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters i {
+	color: lightskyblue;
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+.plus{
+    margin: 0px 7px 0px 7px;
+    font-size: xx-large;
+}
+.dropdown-item{
+    font-weight: 700;
+}
+.Bussiness-content{
+	position: absolute;
+	bottom: 65px;
+	left: 10%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #000;
+	text-align: center;
+}
+.Bussiness-cover{
+	position: relative;
+}
+.Bussiness-header{
+	font-size: 25px;
+	font-weight: 600;
+	text-align: left;
+	color: #3e3e3e;
+}
+.Bussiness-paragraph{
+	font-size: 15px;
+	width: 60%;
+	text-align: justify;
+}
+
+.padding10{
+	padding: 10px
+}
+.service-card{
+	background-color: #fff;
+    padding: 15px 18px;
+    margin: 15px;
+    min-height: 315px;
+    /*min-height: 480px;*/
+    box-shadow: 7px 9px 18px 0px black;
+    border-radius: 12px;
+}
+.service-card p{
+	text-align: justify;
+}
+.flaticon-work11:before {
+    content: "\e0f7";
+}
+.icon-fix{
+    font-size: xxx-large;
+    padding: 13px 5px;
+}
+.view{
+    float: right;
+    position: absolute;
+    rig	ht: 34px;
+    bottom: 30px;
+}
+.service-head{
+	display: inline-flex;
+	margin-left: 40%;
+}
+.service-line{
+    height: 1px;
+    margin-top: 9px;
+}
+.service-h{
+    font-size: 45px;
+    padding: 1px 26px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #0f479a;
+    border-color: #0f479a;
+}
+.text-center{
+    text-align: -webkit-center;
+}
+.counter{
+    text-align: -webkit-center;
+    padding-left: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.page-width {
+  max-width: 1200px;
+  margin: auto;
+}
+.text-left {
+  text-align: left;
+}
+.quotes {
+  display: flex;
+  padding: 5rem 2rem;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quotes-slide {
+  width: 33%;
+  padding: 3rem;
+  background-color: white;
+  opacity: .4;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px #d5d5d5;
+  line-height: 1.75;
+  font-family: 'Roboto', sans-serif;
+  transition: all .5s ease;
+  outline: none;
+}
+footer{
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    }
+    
+.quotes-slide--active {
+    transform: scale(1.2);
+    z-index: 10;
+    opacity: 1;
+    border: none;
+    box-shadow: 1px 0px 10px 5px #eaeaea;
+    color: #222222;
+}
+blockquote {
+  margin: 0;
+}
+cite{
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+}
+cite::before {
+    content: '\2014 \0020';
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  fill: #1a73e8;
+}
+
+@media (min-width: 800px)  {
+    .counter{
+        text-align: -webkit-center;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 740px) {
+	.service-head{
+		width: 00%;
+		display: inline-flex;
+		margin-left: 30%;
+	}
+}
+
+@media (max-width: 700px) {
+	.counters .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.counters .container > span:nth-of-type(1),
+	.counters .container > span:nth-of-type(2) {
+		border-bottom: 1px lightskyblue solid;
+		padding-bottom: 20px;
+	}
+}
